@@ -1,0 +1,127 @@
+{
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Alacritty": {
+            "path": "C:\\Program Files\\Alacritty\\alacritty.exe",
+        }
+    },
+    "workbench.iconTheme": "catppuccin-perfect-dark",
+    "editor.fontFamily": "Cascadia Code",
+    "editor.cursorStyle": "underline",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "string",
+                ],
+                "settings": {
+                    "fontStyle": "italic"  
+                }
+            },
+            {
+                "scope": "invalid",
+                "settings": {
+                    "foreground": "#f40b0b",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#33f44a",
+                    "fontStyle": "italic",
+                }
+            },{
+                "scope": "constant",
+                "settings": {
+                    "foreground": "#ff0808",
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": "variable",
+                "settings": {
+                    "foreground": "#eba8fa",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "keyword",
+                "settings": {
+                    "foreground": "#FF0000",
+                    "fontStyle": "bold"
+                }
+            }            
+        ]
+    },
+    "workbench.activityBar.location": "bottom",
+    "window.title": "Coddle.Cuddle@",
+    "window.newWindowDimensions": "fullscreen",
+    "window.restoreFullscreen": true,
+    "window.restoreWindows": "all",
+        
+    "workbench.statusBar.visible": false,
+    "window.customMenuBarAltFocus": true,
+    "window.menuBarVisibility": "compact",
+    "workbench.navigationControl.enabled": false,
+
+    // Languages
+
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "never",
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off"
+    },
+    "[typescript]": {
+        
+    },
+    "workbench.editorAssociations": {
+        "*.docx": "default"
+    },
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/.docx.json"
+            ],
+            "url": "https://raw.githubusercontent.com/Mehdi-Verfaillie/docx/main/src/config/.docx.schema.json"
+        }
+    ],
+    "workbench.sideBar.location": "right",
+    "workbench.colorCustomizations": {
+        "sideBar.background": "#0000007F" ,
+        "sideBarSectionHeader.background": "#00000000"
+    },
+    "chat.disableAIFeatures": true,
+    "background.windowBackgrounds": [
+        //absolute path to the background
+    ],
+    "background.backgroundOpacity": [
+        0.3,
+        0.1,
+        0.1,
+        0.1
+    ],
+    "background.backgroundBlur": [
+        ".2",
+        "0",
+        "0",
+        "0"
+    ]
+    // "glassit.alpha": 220
+}
